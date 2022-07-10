@@ -1,0 +1,23 @@
+{
+  "name": "contactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushi1852/contactapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayushi1852/contactapp/issues"
+  },
+  "homepage": "https://github.com/aayushi1852/contactapp#readme",
+  "dependencies": {
+    "firebase": "^9.9.0"
+  }
+}
