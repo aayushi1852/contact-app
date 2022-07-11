@@ -1,5 +1,5 @@
 body{
-  background-image: url(./images/1.jpg);
+  background-image: url(../images/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: border-box;
@@ -9,8 +9,13 @@ footer {
   margin-top: auto;
 }
 #contactForm{
+  padding-top: 1rem;
   max-width:max-content;
   margin:auto;
+}
+.navbar{
+  background-color:#D0DAEE ;
+
 }
 footer p {
   text-align: center;
@@ -20,11 +25,11 @@ footer p {
   text-align: center;
   color: blueviolet;
   margin-bottom: 20px;
-  margin-top:20px;
+  margin-top:25px;
 }
 .addcontact{
   text-align: center;
   color: blueviolet;
-  margin-top:20px;
-
+  margin-top:25px;
+  margin:auto;
 }
