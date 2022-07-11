@@ -16,23 +16,3 @@ var Contact = document.getElementById('contact');
 var contactForm = document.getElementById('contactForm');
 var hiddenId = document.getElementById('hiddenId');
 
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  if (!Name.value || !email.value || !Contact.value) return null
-
-  var id = hiddenId.value || Date.now()
-
-  db.ref('contacts/' + id).set({
-    name: Name.value,
-    email: email.value,
-    contact: Contact.value,
-  });
-
-  Name.value = '';
-  email.value = '';
-  Contact.value = '';
-  hiddenId.value = '';
-  alert('Your contact success added..!');
-});
-
